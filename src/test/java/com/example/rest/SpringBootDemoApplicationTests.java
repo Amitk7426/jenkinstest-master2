@@ -26,7 +26,7 @@ public class SpringBootDemoApplicationTests
     @LocalServerPort
     int randomServerPort;
     
-    @Test
+    //@Test
     public void testGetEmployeeListSuccess() throws URISyntaxException 
     {
         RestTemplate restTemplate = new RestTemplate();
